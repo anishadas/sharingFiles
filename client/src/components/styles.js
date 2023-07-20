@@ -9,7 +9,6 @@ export const MyPaper1 = styled(Paper)(({ theme }) => ({
     lineHeight: "20px",
     width: "80%",
     justifyContent:"center",
-    lineBreak: "anywhere",
 }))
    
 
@@ -42,7 +41,6 @@ darkTheme.typography.body1 = {
     fontSize: '0.7rem',
     '@media (min-width:600px)': {
         fontSize: '1rem',
-
     },
 
 };
@@ -56,7 +54,7 @@ export const MyPaper = styled(Paper)(({ theme }) => ({
     color: "white",
     lineHeight: '60px',
     height: "70%",
-    width: "80%",
+    width: "65%",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -74,4 +72,5 @@ export const MyTypography1 = styled(Typography)(({ theme }) => ({
 
 export const MyTypography3 = styled(Typography)(({ theme }) => ({
     color: theme.palette.primary.contrastText,
+    lineBreak:"anywhere"
 }))

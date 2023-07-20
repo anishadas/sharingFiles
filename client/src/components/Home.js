@@ -84,7 +84,7 @@ const Home = () => {
                                 </CopyToClipboard>) : null
                             }
                             {
-                                copied ? <MyTypography2 >copied!</MyTypography2> : null
+                                copied ? <MyTypography2 variant='subtitle2'>copied!</MyTypography2> : null
                             }
 
                         </MyPaper1>
